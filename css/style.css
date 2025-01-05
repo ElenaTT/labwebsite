@@ -55,7 +55,7 @@ nav h1 {
 
 
 .bg {
-    background-image: url('/media/images/background.jpeg');
+    background-image: url('media/images/background.jpeg');
     background-size: 100%;
     background-position: left top;
     background-repeat: no-repeat;
