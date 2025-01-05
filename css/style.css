@@ -1,0 +1,95 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+    font-family: 'Avenir', sans-serif;
+    margin-bottom: 110px; /* Margin bottom by footer height */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 110px; /* Set the fixed height of the footer here */
+    line-height: 110px; /* Vertically center the text there */
+    background-color: #ffffff;
+  }
+
+h1, h2, h3, h4 {
+    font-family: 'Avenir', sans-serif;
+    color: #0c3856;
+}
+
+.home-text {
+    font-size: 24px;
+}
+
+.lab-name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link-pub {
+    color: black;
+}
+
+.link-pub-title {
+    color: #841326;
+    text-decoration: none;
+}
+
+nav h1 {
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.logo {
+    height: 5rem;
+}
+
+.social {
+    height: 1.5rem;
+}
+
+
+.bg {
+    background-image: url('/media/images/background.jpeg');
+    background-size: 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#intro-blurb {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.over-picture {
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-top: 5rem;
+}
+
+/* #home-footer {
+    background-color: white;
+    margin-bottom 0.25rem;
+}
+
+#footer {
+    background-color: white;
+    margin-bottom 0.25rem;
+    margin-top: 3rem;
+} */
+
+@media (max-width: 768px) {
+    .bg {
+        background-position: left bottom;
+    }
+}
+
+.img-responsive {
+    max-width: 100%;
+    display:block;
+    height: auto;
+}
